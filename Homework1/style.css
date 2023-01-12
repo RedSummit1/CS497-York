@@ -1,0 +1,28 @@
+table, th, td{
+    border:2px solid;
+    border-collapse:collapse;
+
+}
+
+th,td{
+    text-align: left;
+    padding-top:10px;
+    padding-right:10px;
+}
+
+td.up{
+    text-align: center;
+}
+
+body{
+    color:white;
+    background-color:black;
+}
+
+a{
+    font-size:2em;
+}
+
+.text-center{
+    text-align: center;
+}

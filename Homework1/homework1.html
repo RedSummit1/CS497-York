@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buy Cheese</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <div class="container">
+            <br><h3 id="info" style="color:yellow">Cheese</h3>
+            <img src="Fotolia_163194474_Subscription_Monthly_M.webp" height="100px" width="200px" align="right" >
+            <br />
+            <br />
+            <!-- Task: add class="text-center" to the container div below-->
+            <div class="text-center">  
+            <label for="search">What is your favorite type of cheese?</label>
+            <input id="search" type="text" oninput=typefunction() value="Enter your cheese">
+            <p>Searching for <strong id="searchterm"></strong></p>
+            </div>
+            <hr/>
+            <div>
+                <div>
+                    <a href="https://cheese.com/gouda/" style="color:yellow">Gouda</a>
+                    <img src="https://cheese.com/media/img/cheese/GOUDA_SqYJjRh.jpg" height="200px" width="200px" align="right">
+                    </h2>
+                    <div>&euro;10</div>
+                    <p>One of the most famous cheeses, do not get left out without some in your cabinet!</p>
+                    <div> <mark>Foriegn Cheeses</mark></div>
+                    <div class="my-3">
+                        <button class="btn btn-outline-secondary" onclick=toggle(0)>Dismiss</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <a href="https://cheese.com/american-cheese/" style="color:yellow">American Cheese</a>
+                    <img src="https://cheese.com/media/img/cheese-thumbs/10-American-Cheese-shutterstock_1610208106.jpg" height="200px" width="200px" align="right">
+                    </h2>
+                    <div>&euro;3</div>
+                    <p>American cheese, it's okay.</p>
+                    <div> <mark>Local Cheeses</mark></div>
+                    <div class="my-3">
+                        <button class="btn btn-outline-secondary" onclick=toggle(1)>Dismiss</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <a href="https://cheese.com/pecorino-romano/" style="color:yellow">Pecorino Romano</a>
+                    <img src="https://cheese.com/media/img/cheese/Pecorino_romano_cheese.jpg" height="200px" width="200px" align="right">
+                    </h2>
+                    <div>&euro;20</div>
+                    <p>One of the most ancient cheeses from Italy made from 100% sheep milk!</p>
+                    <div> <mark>Foriegn Cheeses</mark></div>
+                    <div class="my-3">
+                        <button class="btn btn-outline-secondary" onclick=toggle(2)>Dismiss</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <a href="https://cheese.com/pule/" style="color:yellow">Pule cheese</a>
+                    <img src="https://yodoozy.com/wp-content/uploads/2022/06/photo-1632200729570-1043effd1b77-1024x682.jpeg" height="200px" width="200px" align="right">
+                    </h2>
+                    <div>&euro;600</div>
+                    <p>Only made in Serbia and made from 100% donkey's milk, reserved only for our most exclusive cheesers.</p>
+                    <div> <mark>Exotic Cheeses</mark></div>
+                    <div class="my-3">
+                        <button class="btn btn-outline-secondary" onclick=toggle(3)>Dismiss</button>
+                    </div>
+                </div>
+            </div>
+               
+<script src="apps.js"></script>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
+
